@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+.hide { display: none; }
+.btn { margin: 5px; }
+.correct { background-color: green; }
+.wrong { background-color: red; }
+.quiz-container {
+    border: solid black;
+    padding: 20px;
+    /*width: 100%;
+    height: 100vh;*/
+    margin: 200px;
+}
+
+
+</style>
+
+<body>
+    <div class="quiz-container">
+    <div id="score-container">
+        <p>Score: <span id="right-answers">0</span></p>
+    </div>
+    <div id="question-container" class="hide">
+        <div id="question"></div>
+        <div id="answer-buttons"></div>
+        
+    </div>
+    <button id="start-btn">Start</button>
+    <button id="next-btn" class="hide">Next</button>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
