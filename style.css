@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f9; /* Light grey background for better visibility */
+    background-color: #f4f4f9;
     font-family: Arial, sans-serif;
 }
 
@@ -19,8 +19,8 @@ body {
     background-color: white;
     border-radius: 10px;
     padding: 20px 30px;
-    width: 400px; /* Fixes container width */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
 
@@ -32,8 +32,8 @@ body {
 
 .btn-grid {
     display: flex;
-    flex-direction: column; /* Buttons stacked vertically */
-    gap: 10px; /* Spacing between buttons */
+    flex-direction: column;
+    gap: 10px;
 }
 
 .btn {
@@ -49,19 +49,19 @@ body {
 }
 
 .btn.correct {
-    background-color: #d4edda; /* Light green for correct answer */
+    background-color: #d4edda;
     color: green;
     border-color: green;
 }
 
 .btn.wrong {
-    background-color: #f8d7da; /* Light red for wrong answer */
+    background-color: #f8d7da;
     color: red;
     border-color: red;
 }
 
 .btn:hover {
-    background-color: #f0f0f0; /* Light grey on hover */
+    background-color: #f0f0f0;
 }
 
 #start-btn,
@@ -72,7 +72,7 @@ body {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #007bff; /* Blue color for buttons */
+    background-color: #007bff;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -80,9 +80,10 @@ body {
 
 #start-btn:hover,
 #next-btn:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3;
 }
 
 .hide {
     display: none;
 }
+
